@@ -1,5 +1,22 @@
 @charset "utf-8";
 
+
+.cardset-img[alt="콘티"] {
+    height: 1500px !important;
+    width: auto;
+    object-fit: contain !important;
+    margin-left: 50px;
+    
+
+}
+.cardset-figure {
+    display: flex; /* Flexbox로 설정하여 이미지를 가로로 배치 */
+    gap: 10px; /* 이미지 간 간격 설정 */
+    justify-content: flex-start; /* 왼쪽 정렬 (기본값으로 설정됨) */
+  }
+
+
+
 /* basic-N1 */
 .basic-N1 {
     position: relative;
@@ -363,6 +380,7 @@
         transform: rotate(180deg)
     }
 }
+
 /* basic-N6 */
 .basic-N6 .contents-container {
     padding: 8rem 2rem
@@ -386,6 +404,7 @@
         display: none
     }
 }
+
 /* personal-jmm3o1Zrfq */
 .personal-jmm3o1Zrfq .contents-inner {
     padding: 8rem 1.6rem
@@ -444,6 +463,7 @@
         display: none
     }
 }
+
 /* basic-N4 */
 .basic-N4 .footer-top {
     display: flex;
@@ -548,6 +568,7 @@
         overflow-x: auto
     }
 }
+
 /* basic-N4 [CeM4AL4sQR] */
 .basic-N4[id='CeM4AL4sQR'] .footer-inner {
     background-color: var(--primary)
@@ -629,6 +650,7 @@
         flex-shrink: 0
     }
 }
+
 /* basic-N4 [nHM4ALe8cr] */
 .basic-N4[id='nHM4ALe8cr'] .footer-inner {
     background-color: var(--primary)
@@ -710,6 +732,7 @@
         flex-shrink: 0
     }
 }
+
 /* basic-N4 [XiM4Y1H7Rp] */
 .basic-N4[id='XiM4Y1H7Rp'] .footer-menulist {
     flex-wrap: wrap;
@@ -748,6 +771,7 @@
         flex-shrink: 0
     }
 }
+
 /* personal-iVm4l0A105 */
 .personal-iVm4l0A105 {
     position: relative;
@@ -1111,6 +1135,7 @@
         transform: rotate(180deg)
     }
 }
+
 /* basic-N34 */
 .basic-N34 .contents-inner {
     padding: 8rem 1.6rem
@@ -1136,6 +1161,7 @@
         padding: 5rem 1.6rem
     }
 }
+
 /* basic-N49 */
 .basic-N49 .contents-inner {
     padding: 8rem 1.6rem
@@ -1190,6 +1216,7 @@
         display: none
     }
 }
+
 /* basic-N3 */
 .basic-N3 {
     position: sticky;
@@ -1748,6 +1775,7 @@
         margin-left: 0.6rem
     }
 }
+
 /* basic-N39 */
 .basic-N39 {
     position: relative;
@@ -1940,12 +1968,13 @@
         display: none
     }
 }
+
 /* basic-N40 */
 .basic-N40 {
     position: relative;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    overflow: hidden
+    overflow: hiddens
 }
 
 .basic-N40 .contents-inner {
@@ -1969,9 +1998,9 @@
 }
 
 .basic-N40 .cardset .cardset-figure {
-    height: 64rem;
+    height: auto;
     border-radius: 2rem;
-    overflow: hidden
+    overflow: visible;
 }
 
 .basic-N40 .cardset .cardset-figure+.cardset-body,
@@ -2030,6 +2059,7 @@
         display: none
     }
 }
+
 /* basic-N41 */
 .basic-N41 {
     position: relative;
@@ -2096,6 +2126,7 @@
         display: none
     }
 }
+
 /* basic-N42 */
 .basic-N42 {
     position: relative;
@@ -2232,6 +2263,7 @@
         padding-top: 3rem
     }
 }
+
 /* basic-N43 */
 .basic-N43 {
     position: relative;
@@ -2324,6 +2356,7 @@
         display: none
     }
 }
+
 /* basic-N44 */
 .basic-N44 {
     position: relative;
@@ -2370,6 +2403,7 @@
 .basic-N44 .cardset .cardset-tit {
     color: var(--white)
 }
+
 
 @media (max-width: 992px) {
     .basic-N44 {
